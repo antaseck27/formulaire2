@@ -1,0 +1,141 @@
+body{
+    background-size: cover;
+    background: linear-gradient(to right, #944875, #100753);  
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    overflow: hidden;
+       }
+    
+form{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #100753;
+    width: 60%;
+    padding-left: 50px;
+    
+   
+} 
+.cont .inp{
+    color: #0f9c24;
+    display: flex;
+    align-items: center;
+    gap: 55PX;
+    
+   
+}
+
+.container{
+    background-color: #100753;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    
+   
+}
+input{
+
+border: none;
+/* border-bottom: solid 1px white; */
+width: 60%;
+padding: 10PX;
+background-color: #100753;
+color: white;
+
+}
+.inp{
+    display: flex;
+    border-bottom: none;
+}
+.form-text{
+    border-bottom: 1px solid;
+    padding-bottom: 0px;
+    padding-left: "30px";
+    padding-top: 0px;
+    color: white;
+    width: 60%;
+    display: flex;
+    margin-left: 100PX;
+    padding-top: 0px;
+    position: relative;
+    top: -22px;
+}
+#People{
+    color: navy;
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-left: 50PX;
+    
+}
+label{
+    color: white;
+}
+img{
+    width: 100%;
+    }
+ .img{
+    width: 50%;
+
+ }   
+    h3{
+        font-size: large 20PX;
+        color: #9c0f5a;
+        text-align: center;
+        padding: 20px;
+
+}
+.border{
+    border-bottom: 1px solid white;
+    width: 60%;
+    padding-bottom: 50PX;
+    right: 40px;
+    margin-left: 100px;
+}
+button{
+        border: none;
+        width: 164px;
+        height: 51px;
+        margin-right: 20px;
+        margin-top: 40px;
+        padding-left: 0px;
+        background: linear-gradient( #a93573,#100753);
+        font-size: 15px;
+        color: #fff;
+    
+    
+    }
+    .cont{
+        width: 50%;
+       
+    }
+    .selection
+    {
+        display: flex;
+    }
+    .name
+    {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    #send
+    {
+        margin-left: "10px";
+    }
+    .send
+    {
+        
+        display: flex;
+        flex-direction: column;
+        height: 100PX;
+        padding-left: 50PX;
+        
+
+    }
+
+
