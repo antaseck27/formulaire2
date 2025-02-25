@@ -79,8 +79,22 @@ img{
     }
  .img{
     width: 50%;
+    background-image: url(photo-2.avif);
+    background-size: cover;
 
  }   
+ .info{
+    width: 100%;
+    background-color: #ef4faf7d;
+    position: relative;
+    top: 352px;
+    height: 150PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+ 
     h3{
         font-size: large 20PX;
         color: #9c0f5a;
@@ -120,6 +134,20 @@ button{
     {
         display: flex;
         flex-direction: column;
+        
+    }
+    #comment{
+        width: 250px;
+        border: none;
+        border-bottom: 1PX solid white;
+        height: 100PX;
+        background-color:#100753;
+    }
+    .bas{
+       
+        display: flex;
+        gap: 38PX;
+       
         
     }
 

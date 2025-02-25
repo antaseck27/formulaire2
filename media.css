@@ -1,0 +1,87 @@
+@media screen and (max-width: 800px){
+    body{
+       background: none; 
+       overflow: visible;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        width: 100%;
+    }
+    .info{
+        position: relative;
+        top: 300PX;
+        height: 80PX;
+       
+    }
+    .cont{
+        width: 100%;
+        max-width: 100%;
+    }
+    .img{
+        width: 100%;
+        height: 400PX;
+        display: flex;
+        float: right;
+    
+    }
+    .form-text{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 20PX;
+        color: brown;
+        position: relative;
+        left: 5PX;
+    }
+    .label{
+        
+    }
+    input{
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+       
+       /* position: relative;
+       right: -50PX; */
+    }
+    .border{
+        border: none;
+    }
+    .name
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 20PX;
+    }
+    .cont .inp{
+        display: flex;
+        align-items: center;
+        gap: 60px;
+        position: relative;
+        margin-left: 25PX;
+
+        
+       
+    }
+    #comment{
+        width: 60%;
+        
+    }
+    .bas{
+       
+        display: flex;
+        gap: 38PX;
+        margin-left: 20px;
+       
+        
+    }
+
+
+}
